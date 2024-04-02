@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('https://via.placeholder.com/1920x1080');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #fff;
+    }
+
+    .card {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="text-center mb-4">Carl Vincent B. Hugo</h2>
+            <h5 class="text-center mb-4">BSIT-2A</h5>
+            <hr>
+            <div class="text-center mb-4">
+              <img src="file:///storage/emulated/0/Pictures/VSCO.jpg" alt="Profile Picture" class="rounded-circle" data-toggle="tooltip" title="Click to enlarge">
+            </div>
+            <h4>Personal Information<button class="btn btn-link btn-sm float-right" type="button" data-toggle="collapse" data-target="#experienceCollapse" aria-expanded="false" aria-controls="experienceCollapse">Show/Hide</button></h4>
+            <div class="collapse" id="experienceCollapse">
+              <p><strong>Nickname</strong></p>
+              <ul>
+                <li>Carl/Kaloy/Inteng</li></ul>
+                <p><strong>Age</strong></p>
+                <ul>
+                <li>20 years old</li>
+                </ul>
+                <p><strong>Birth date</strong></p>
+                <ul>
+                <li>January 31, 2004</li>
+                </ul>
+                <p><strong>Birth place</strong></p>
+                <ul>
+                <li>Angono, Rizal</li>
+                </ul>
+                <p><strong>Fathers Name</strong></p>
+                <ul>
+                <li>Fabian S. Hugo</li>
+                </ul>
+                <p><strong>Mothers Name</strong></p>
+                <ul>
+                <li>Julie Ann B. Hugo</li>
+                </ul>
+                <p><strong>Civil Status</strong></p>
+                <ul>
+                <li>Single</li>
+                </ul>
+                <p><strong>Religion</strong></p>
+                <ul>
+                <li>Roman Catholic</li>
+                </ul>
+            </div>
+            <hr>  
+            <h4>Education <button class="btn btn-link btn-sm float-right" type="button" data-toggle="collapse" data-target="#educationCollapse" aria-expanded="false" aria-controls="educationCollapse">Show/Hide</button></h4>
+            <div class="collapse" id="educationCollapse">
+                <p><strong>Elementary</strong></p>
+                <ul>
+                <li>Busay Elementary School 2016</li>
+                </ul>
+                <p><strong>High School</strong></p>
+                <ul>
+                <li>Balogo National High School 2020</li></ul>
+                <p><strong>Senior High School </strong></p>
+                <ul>
+                <li>Balogo National High School 2022</li></ul>
+              <p><strong>College</strong></p>
+              <ul>
+                <li>Bicol University-Polangui</li></ul>
+                <ul>
+              <p><strong>Degree Program: </strong> Bachelor of Science in Information Technology</p>
+              <p><strong>Expected Graduation: </strong> May 2026</p></ul>
+            </div>
+            <hr>          
+            <h4>Skills <button class="btn btn-link btn-sm float-right" type="button" data-toggle="collapse" data-target="#skillsCollapse" aria-expanded="false" aria-controls="skillsCollapse">Show/Hide</button></h4>
+            <div class="collapse" id="skillsCollapse">
+              <ul>
+                <li>Programming languages: C++, Java</li>
+                <li>Web development: HTML/CSS, Bootstrap</li>
+              </ul>
+            </div>
+            <hr>
+            <h4>Contact Information <button class="btn btn-link btn-sm float-right" type="button" data-toggle="collapse" data-target="#contactCollapse" aria-expanded="false" aria-controls="contactCollapse">Show/Hide</button></h4>
+            <div class="collapse" id="contactCollapse">
+              <p><strong>Email:</strong> carlbista42@gmail.com</p>
+              <p><strong>Phone:</strong> 09936879440</p>
+              <p><strong>Address:</strong> 055 Purok 1, Busay, Ligao City, Albay</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
+</body>
+</html>
